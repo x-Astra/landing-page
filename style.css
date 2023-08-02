@@ -36,6 +36,11 @@ ul {
     flex-wrap: wrap;
 }
 
+img {
+    width: 700px;
+    height: auto;
+}
+
 .content-top button {
     display: block;
     text-align: center;
