@@ -30,27 +30,21 @@ ul {
 
 .text {
     display: flex;
+    flex: 1;
     flex-direction: column;
-    text-align: left;
     margin-right: 50px;
-    flex-wrap: wrap;
 }
 
 img {
     width: 700px;
     height: auto;
+    align-self: stretch;
 }
 
-.content-top button {
-    display: block;
-    text-align: center;
-}
-
-.footer {
-    display: flex;
-    align-items: center;
+.first-button {
+    text-align: left;
     justify-content: center;
-    padding: 16px;
+    width: 110px;
 }
 
 a {
@@ -60,4 +54,54 @@ a {
 
 button {
     padding: 8px 16px;
+}
+
+h2  {
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.info img {
+    height: 200px;
+    width: 200px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.quote p{
+    font-size: 36px;
+    text-align: center;
+}
+
+.quote b {
+    text-align: right;
+    padding: 16px;
+}
+
+.signup-section {
+    display: flex;
+    align-items: center;
+    margin: 20px 500px;
+}
+
+.sign-text {
+    flex: 1;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
 }
